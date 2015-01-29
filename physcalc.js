@@ -153,3 +153,40 @@ function h1_9c(){
 function h1_9d(){
 	return h1_9b() - h1_9a()
 }
+
+function h2_1a(){
+	// Find the block's volume and multiply by the density of aluminum and gravity to get the weight
+}
+
+function h2_1b(){
+	// Find the buoyancy acting on the block and subtract from the block's weight
+}
+
+function h2_2(){
+	// Find the volume of the sphere given its density and weight.
+	// Given the volume of displaced liquid and the buoyancy, find the density of the liquid.
+}
+
+function h2_3a(){
+	// The required mass has a volume where the difference between the weight of the gas and the air
+	// 	equals the weight of the lifted mass.
+}
+
+function h2_3b(){
+	// Calculate buoyancy of replacing air with helium and subtract balloon's weight
+}
+
+function h2_3c(){
+	// Calculate volume of air that must be displaced by helium to create a change of weight
+	// 	that equals the balloon and person combined
+}
+
+function h2_4(){
+	// Calculate buoyancy of fully submerging the logs, with consideration for water pressure by depth
+	// Calculate weight of the logs and subtract from buoyancy
+	// Divide remaining buoyancy by the weight of a person to get the number of people supported
+}
+
+function h2_5(){
+	
+}
