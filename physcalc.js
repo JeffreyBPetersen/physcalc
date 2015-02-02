@@ -188,5 +188,147 @@ function h2_4(){
 }
 
 function h2_5(){
-	
+	// constant = 1.6 * 10^5 + water density * ((465 cm^3 / s) / (pi * (2.05 cm)^2)) / 2
+  // 1.2 * 10^5 + water density * ((465 cm^3 / s) / (pi * (x cm)^2)) / 2 = constant
+  // water density * ((465 cm^3 / s) / (pi * (x cm)^2)) = 2 * (constant - 1.2 * 10^5)
+  // ((465 cm^3 / s) / (pi * (x cm)^2)) = 2 * (constant - 1.2 * 10^5) / water density
+  // (pi * (x cm)^2) = (465 cm^3 / s) / (2 * (constant - 1.2 * 10^5) / water density)
+  // continue solving for x
+}
+
+function h2_6(){
+  // Convert pressure to absolute
+  // Use Bernoulli's equation and solve for x
+}
+
+function h2_7a(){
+  // Draw a smaller arrow relative to the bigger area
+}
+
+function h2_7b(){
+  // Use Bernoulli's equation and solve for x
+}
+
+function h2_8a(){
+  // Draw the arrows inverse proportionate to the area, argue using Bernoulli's equation
+}
+
+function h2_8b(){
+  // Use Bernoulli's equation to find the air pressure difference in the Mercury tubes
+  // Use the air pressure difference in Bernoulli's equation for the air tubes
+  // Incorporate the given diameters into finding the area to find the velocity
+  // Solve Bernoulli's equation for the velocities of the air
+}
+
+function h2_8c(){
+  // Multiply the velocities of the air by the areas of the air tubes
+}
+
+function h2_9a(){
+  // Pressure must drop to compensate for velocity by Bernoulli's equation
+}
+
+function h2_9b(){
+  // Solve Bernoulli's equation for the unknown pressure in both cases
+}
+
+function h2_10(){
+  // Solve simplified Bernoulli's equation for the unknown velocity
+  // Simplify out the velocity of the gasoline level drop in the tank
+}
+
+function h3_1(){
+  
+}
+
+function h3_2a(){
+  
+}
+
+function h3_2b(){
+  
+}
+
+function h3_3(){
+  
+}
+
+function h3_4a(){
+  
+}
+
+function h3_4b(){
+  
+}
+
+function h3_4c(){
+  
+}
+
+function h3_4d(){
+  
+}
+
+function h3_4e(){
+  
+}
+
+function h3_5a(){
+  
+}
+
+function h3_5b(){
+  
+}
+
+function h3_5c(){
+  
+}
+
+function h3_6a(){
+  
+}
+
+function h3_6b(){
+  
+}
+
+function h3_7(){
+  
+}
+
+function h3_8(){
+  
+}
+
+function h3_9a(){
+  
+}
+
+function h3_9b(){
+  
+}
+
+function h3_9c(){
+  
+}
+
+function h3_9d(){
+  
+}
+
+function h3_10a(){
+  
+}
+
+function h3_10b(){
+  
+}
+
+function h3_10c(){
+  
+}
+
+function h3_10d(){
+  
 }
