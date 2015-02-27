@@ -23,6 +23,11 @@ converted
   1 Calorie = 1000 calories
 */
 
+/* Formulas
+  C_V = fR/2 //molar specific heat for constant volume = degrees of freedom * universal gas constant / 2
+  wave speed = frequency * wavelength = wavelength / period
+*/
+
 // Constants
 var atm = 101300 //pressure of atmosphere
 var Avogadro_number = 6.022 * Math.pow(10, 23)
@@ -57,6 +62,26 @@ var water = {
 	density: 1000,
   latent_heat_of_vaporization: 2.256 * Math.pow(10, 6),
   specific_heat: 4186
+}
+
+// Lab
+
+function point(x, y){
+  return {
+    x: x,
+    y: y
+  }
+}
+
+function find_intersections(point_a, point_b){
+  var m = (point_a.y - point_b.y) / (point_a.x - point_b.x)
+  var x_intersection = -point_a.y / m + point_a.x
+  var y_intersection = -point_a.x * m + point_a.y
+  return {
+    slope: m,
+    x_intersection: x_intersection,
+    y_intersection: y_intersection
+  }
 }
 
 // Homework 1
@@ -178,6 +203,8 @@ function h1_9d(){
 	return h1_9b() - h1_9a()
 }
 
+// Homework 2
+
 function h2_1a(){
 	// Find the block's volume and multiply by the density of aluminum and gravity to get the weight
 }
@@ -260,6 +287,8 @@ function h2_10(){
   // Solve simplified Bernoulli's equation for the unknown velocity
   // Simplify out the velocity of the gasoline level drop in the tank
 }
+
+// Homework 3
 
 function h3_1(){
   // Solve for buoyant force of 0.65 of pontoon to equal weight of pontoon
@@ -516,4 +545,164 @@ function h3_10d(){
     fusion: "40000 J/kg",
     vaporization: "120000 J/kg"
   }
+}
+
+// Homework 4
+
+function h4_1a(){
+}
+
+function h4_1b(){
+}
+
+function h4_1c(){
+}
+
+function h4_2a(){
+}
+
+function h4_2b(){
+}
+
+function h4_2c(){
+}
+
+function h4_2d(){
+}
+
+function h4_2e(){
+}
+
+function h4_3a(){
+}
+
+function h4_3b(){
+}
+
+function h4_3c(){
+}
+
+function h4_3d(){
+}
+
+function h4_4a(){
+}
+
+function h4_4b(){
+}
+
+function h4_4c(){
+}
+
+function h4_4d(){
+}
+
+function h4_5a(){
+}
+
+function h4_5b(){
+}
+
+function h4_5c(){
+}
+
+function h4_6a(){
+}
+
+function h4_6b(){
+}
+
+function h4_7a(){
+}
+
+function h4_7b(){
+}
+
+function h4_7c(){
+}
+
+function h4_7d(){
+}
+
+// Homework 5
+
+function h5_1a(){
+}
+
+function h5_1b(){
+}
+
+function h5_2a(){
+}
+
+function h5_2b(){
+}
+
+function h5_3a(){ // Practice
+}
+
+function h5_3b(){ // Practice
+}
+
+function h5_4a(){
+}
+
+function h5_4b(){
+}
+
+function h5_5a(){
+}
+
+function h5_5b(){
+}
+
+function h5_5c(){
+}
+
+function h5_6a(){
+}
+
+function h5_6b(){
+}
+
+function h5_7(){
+}
+
+function h5_8(){
+}
+
+function h5_9(){
+}
+
+function h5_10(){
+}
+
+function h5_11(){
+}
+
+function h5_12(){
+}
+
+function h5_13a(){
+}
+
+function h5_13b(){
+}
+
+function h5_14a(){ // Practice
+}
+
+function h5_14b(){ // Practice
+}
+
+function h5_14c(){ // Practice
+}
+
+function h5_15a(){
+}
+
+function h5_15b(){
+}
+
+function h5_15c(){
 }
